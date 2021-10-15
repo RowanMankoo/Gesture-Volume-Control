@@ -10,7 +10,6 @@ Once the volume has been set the programme can be closed via pressing the 'Esc' 
 
 A bounding box is placed around the detected hand and the area (in pixels) of this box is calculated. To prioritise hands in the foreground of the video, a constraint is placed upon this area where if the area of a bounding box is below a certain amount the hand will not be detected
 
-![Example GIF](Example.gif "Example")
 
 <p align="center">
   <img src=Example.gif alt="Example"/>
