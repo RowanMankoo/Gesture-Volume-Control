@@ -4,7 +4,7 @@ This project concerns itself with volume control via gesture recognition. The id
 
 ## Programme features
 
-To avoid mistakenly setting the volume by a random amount, it is required for the user to have their pinky finger lowered before any volume adjustments can be made. To implement this the y-coordinate of the pinky finger pose is compared against the lower two joints and if it is smaller than these two the finger is deemed to be lowered.
+To avoid mistakenly setting the volume by a random amount, it is required for the user to have their pinky finger lowered before any volume adjustments can be made. To implement this the y-coordinate of the pinky finger tip is compared against the lower two joints and if it is smaller than these two, the finger is deemed to be lowered.
 
 Once the volume has been set the programme can be closed via pressing the 'Esc' key or putting down the middle finger in a similar manner to the pinky. To avoid mistakenly closing the programme when the hand enters the scene, a 3-second timer is started as soon as the hand enters the frame, and only after these 3 seconds can the programme be closed using the middle finger.
 
