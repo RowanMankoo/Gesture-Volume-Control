@@ -79,7 +79,7 @@ while True:
                 color = (255,0,0))
     
     # print image 
-    cv2.imshow('frame',frame)
+    cv2.imshow('Gesture Volume Control',frame)
     
     
     
