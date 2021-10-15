@@ -10,4 +10,7 @@ Once the volume has been set the programme can be closed via pressing the 'Esc' 
 
 A bounding box is placed around the detected hand and the area (in pixels) of this box is calculated. To prioritise hands in the foreground of the video, a constraint is placed upon this area where if the area of a bounding box is below a certain amount the hand will not be detected
 
+![Imgur](https://i.imgur.com/feXbDXl.gifv)
+
+
 To use this model make sure all .py scripts are installed and placed in the same directory. Make sure the following libraries are installed: ```numpy```,```pycaw```,```mediapipe```,```cv2```. Once all scripts and required packages are installed, open the Final.py script and run it.
