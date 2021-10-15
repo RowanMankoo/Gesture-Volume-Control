@@ -8,7 +8,7 @@ To avoid mistakenly setting the volume by a random amount, it is required for th
 
 Once the volume has been set the programme can be closed via pressing the 'Esc' key or putting down the middle finger in a similar manner to the pinky. To avoid mistakenly closing the programme when the hand enters the scene, a 3-second timer is started as soon as the hand enters the frame, and only after these 3 seconds can the programme be closed using the middle finger.
 
-A bounding box is placed around the detected hand and the area (in pixels) of this box is calculated. To prioritise hands in the foreground of the video, a constraint is placed upon this area where if the area of a bounding box is below a certain amount the hand will not be detected
+A bounding box is placed around the detected hand and the area (in pixels) of this box is calculated. To prioritise hands in the foreground of the video, a constraint is placed upon this area where if the area of a bounding box is below a certain amount the hand will not be detected 
 
 
 <p align="center">
