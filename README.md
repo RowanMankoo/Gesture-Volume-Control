@@ -15,5 +15,3 @@ A bounding box is placed around the detected hand and the area (in pixels) of th
   <img src=Example.gif alt="Example"/>
 </p>
 
-## Repository Structure
-To use this model make sure all .py scripts are installed and placed in the same directory. Make sure the following libraries are installed: ```numpy```,```pycaw```,```mediapipe```,```cv2```. Once all scripts and required packages are installed, open the Final.py script and run it.
